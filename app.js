@@ -13,7 +13,7 @@ function LunchCheckController($scope) {
     let splitLength = nameSplit.length;
 
     if (splitLength <= 3) {
-      $scope.result = "Less then tree!"
+      $scope.result = "Less or equal then tree!"
     } else {
       $scope.result = "Greath then tree!"
     }
